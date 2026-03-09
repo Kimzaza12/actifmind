@@ -58,7 +58,7 @@ className="bg-green-700 text-white px-6 py-3 rounded-full hover:bg-green-800 tra
 
 <motion.img
 src="/images/brain.png"
-className="w-48 md:w-80 lg:w-[320px] drop-shadow-2xl"
+className="w-100 md:w-300 lg:w-[900px] drop-shadow-2xl"
 animate={{
 scale:[1,1.1,1],
 opacity:[0.7,1,0.7]

@@ -3,8 +3,10 @@ import { Bai_Jamjuree } from "next/font/google";
 import "./globals.css";
 
 const bai = Bai_Jamjuree({
-  subsets: ["thai"],
-  weight: ["300","400","500","600","700"],
+  subsets: ["latin", "thai"],
+  weight: ["300", "400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-bai",
 });
 
 export const metadata: Metadata = {
@@ -19,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="th">
-      <body className={`${bai.className} antialiased`}>
+      <body className={`${bai.variable} antialiased`}>
         {children}
       </body>
     </html>
