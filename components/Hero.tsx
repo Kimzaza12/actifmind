@@ -56,9 +56,10 @@ className="bg-green-700 text-white px-6 py-3 rounded-full hover:bg-green-800 tra
 
 <div className="relative flex justify-center">
 
+
 <motion.img
-src="https://cdn-icons-png.flaticon.com/512/4812/4812430.png"
-className="absolute w-40 -top-20 opacity-80"
+src="/images/brain.png"
+className="w-72 md:w-96 lg:w-300 drop-shadow-2xl"
 animate={{
 scale:[1,1.1,1],
 opacity:[0.7,1,0.7]
@@ -69,10 +70,6 @@ repeat:Infinity
 }}
 />
 
-<img
-src="https://dummyimage.com/260x340/2f6b4f/ffffff&text=Actifmind"
-className="w-64 rounded-xl shadow-lg"
-/>
 
 </div>
 

@@ -10,7 +10,7 @@ return(
 
 <Navbar/>
 
-<main className="pt-24">
+<main className="md:pt-15 lg:pt-24">
 
 <Hero/>
 
