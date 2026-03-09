@@ -32,3 +32,11 @@ export default function RootLayout({
     </html>
   );
 }
+
+
+import { Noto_Sans_Thai } from 'next/font/google'
+
+const noto = Noto_Sans_Thai({
+  subsets: ['thai'],
+  weight: ['300','400','500','600','700']
+})
